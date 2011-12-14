@@ -1,7 +1,6 @@
-package com.emerjbl.followAlong;
+package com.haseman.lists;
 
 import java.io.InputStreamReader;
-
 import java.net.HttpURLConnection;
 import java.net.URL;
 
@@ -12,25 +11,21 @@ import org.json.JSONObject;
 import android.app.ListActivity;
 import android.os.AsyncTask;
 import android.os.Bundle;
-
 import android.util.Log;
-
-
 import android.view.View;
 import android.view.ViewGroup;
-
 import android.widget.BaseAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainMenuActivity extends ListActivity{
+public class DemoListActivity extends ListActivity{
 
     private TwitterAsyncTask twitterFetcher;
     public void onCreate(Bundle bundle){
         super.onCreate(bundle);
-        setContentView(R.layout.list_activity);
+        setContentView(R.layout.main);
 
         ListAdapter adapter = new TwitterJSONAdapter();
         setListAdapter(adapter);

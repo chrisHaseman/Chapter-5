@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="loading">loading...</string>
+    <string name="app_name">TwitterList</string>
+    <string-array name="menu_entries">
+    	<item>Peachpit\'s Twitter!</item>
+    	<item>Fragment Using Menu</item>
+    	<item>Menu Item Three</item>
+    </string-array>
+    <string name="main_menu">Main Menu</string>
+</resources>
